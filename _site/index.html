@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -19,16 +17,16 @@
       <a href="https://github.com/GantryBot/Tutorials/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/GantryBot/Tutorials/tarball/master" class="btn">Download .tar.gz</a>
     </section>
-        {% for post in site.posts %}
-            <a href="{{ site.github.url }}{{post.url}}">
-                <h1>{{ post.title }} </h1>
+        
+            <a href="/2016/06/13/serial-communication-write-to-ardunio.html">
+                <h1>Toggle Led </h1>
             </a>
-            {% if post.part %} 
-                <h2> Series: {{ post.part }} </h2>
-            {% endif %}
-            <h2>{{post.date | date: "%b %y"}}</h1>
-            <h2>{{post.description}}<h2>
-        {% endfor %}
+             
+                <h2> Series: 1 of Serial Communication </h2>
+            
+            <h2>Jun 16</h1>
+            <h2>Write data to Ardunio from qt widget. It is the first part of Serial communication tutorial. It covers writing to ardunio serially.<h2>
+        
     </section>
   </body>
 </html>
